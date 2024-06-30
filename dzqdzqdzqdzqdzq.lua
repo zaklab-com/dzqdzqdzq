@@ -31,7 +31,7 @@ local isActivated = false
 				texttabel.BackgroundTransparency = 1
 				texttabel.TextScaled = true
 				texttabel.Text = model.Name
-				texttabel.TextColor = BrickColor.new("Really Red")
+				texttabel.TextColor = BrickColor.new("Really red")
 			end
 		end
 	elseif isActivated == true then
