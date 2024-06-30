@@ -24,6 +24,14 @@ local isActivated = false
 				v__Part.CFrame = model.HumanoidRootPart.CFrame
 				v__Weld__Constraint.Part1 = v__Part
 				v__Part.Parent = model
+				local billboard = Instance.new("BillboardGui", model.HumanoidRootPart)
+				billboard.AlwaysOnTop = true
+				billboard.Size = UDim2.new(5, 0,2, 0)
+				local texttabel = Instance.new("TextLabel", billboard)
+				texttabel.BackgroundTransparency = 1
+				texttabel.TextScaled = true
+				texttabel.Text = model.Name
+				texttabel.TextColor = Color3.new(1,0,0)
 			end
 		end
 	elseif isActivated == true then
