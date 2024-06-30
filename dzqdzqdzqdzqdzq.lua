@@ -30,6 +30,7 @@ local isActivated = false
 				local texttabel = Instance.new("TextLabel", billboard)
 				texttabel.BackgroundTransparency = 1
 				texttabel.TextScaled = true
+				texttabel.Size = UDim2.new(1,0,1,0)
 				texttabel.Text = model.Name
 				texttabel.TextColor3 = Color3.new(1,0,0)
 			end
